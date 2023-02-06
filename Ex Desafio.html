@@ -1,0 +1,15 @@
+<meta charset="UTF-8">
+
+<script>
+
+    var seg1 = Number(prompt("Digite o tamanho do primeiro segmento"));
+    var seg2 = Number(prompt("Digite o tamanho do segundo segmento"));
+    var seg3 = Number(prompt("Digite o tamanho do terceiro segmento"));
+
+    if (seg1 < (seg2 + seg3) && seg2 < (seg1 + seg3) && seg3 < (seg1 + seg2)) {
+        alert("Com esses segmentos você poderá formar um triângulo.");
+    }
+    else {
+        alert("Não é possível formar um triângulo.");
+    }
+</script>
